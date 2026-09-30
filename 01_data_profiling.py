@@ -1,0 +1,22 @@
+import pandas as pd
+df=pd.read_csv("data/LC_loans_granting_model_dataset.csv")
+# print(df.shape)
+# print(df.dtypes)
+# print(df.isnull().sum())
+# print(df.describe())
+# print(df.duplicated().sum())
+# print(df.columns.tolist())
+# print(df.head())
+
+# print("Default Distribution",df["Default"].value_counts())
+# print("Default Percentage",df["Default"].value_counts(normalize=True)*100)
+# print("Loan Purpose",df["purpose"].value_counts())
+# print("Employment Lenth",df["emp_length"].value_counts())
+# print("Home Ownership",df["home_ownership_n"].value_counts())
+# print("Unique States",df["addr_state"].nunique())
+
+# print(df["issue_d"].min(),"to",df["issue_d"].max())
+# print(df["issue_d"].nunique())
+# print(df["emp_length"].unique())
+# print(df["home_ownership_n"].unique())
+# print(df["Default"].unique())
